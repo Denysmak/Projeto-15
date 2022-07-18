@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
+}
+
+video{
+    height: 1200px;
+    width: 2000px;
+    display: none;
+}
+#iniciar{
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    font-size: 4rem;
+}
+#iniciar:hover{
+    height: 220px;
+    width: 440px;
+    font-size: 4.2rem;
+}
+#iniciando{
+    font-size: 4rem;
+    display: none;
+}
+
+@keyframes iniciandoAnimacao{
+    0%{color: black;}
+    100%{color: white;}
+}
+
+
+.animate1{
+    animation-name: iniciandoAnimacao;
+    animation-duration: 2s;
+}
+#contagem{
+    font-size: 15rem;
+    /* font-family: 'Roboto Mono', monospace; */
+    display: none;
+}
+#bum{
+    font-size: 10rem;
+    position: absolute;
+    display: none;
+}
